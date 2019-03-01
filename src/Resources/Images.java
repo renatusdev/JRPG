@@ -813,7 +813,7 @@ public class Images {
 				}
 			} else {     // xPos.length() == 3			 	EX: 104 0 100 100    EX: 156 52 50 50     EX: 104 156 100 100
 
-				if (line.charAt(16) == '0'){			// Then y = 0			Then y = 52 		 Then y = 156
+				if (line.charAt(16) == '0'){				// Then y = 0			Then y = 52 		 Then y = 156
 					yPos = line.charAt(16) + "";
 				}
 				else if (line.charAt(18) == ' ') {
